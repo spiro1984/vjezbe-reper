@@ -1,0 +1,25 @@
+body{background-image: url(./images/background.jpg); 
+background-size:cover }
+
+.header_nav{width: 300px;
+display:flex;
+font-size: 22px;
+margin-left: 600px;
+padding-block: 15px;
+}
+
+.header_link:link, .header_link:visited {
+    margin-right: 20px;
+    font-family: fantasy;
+    color: rgb(217, 181, 119);
+    text-decoration: none ;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.header_link:hover, .header_link:active {
+   color: rgba(227, 201, 157, 0.947);
+   text-shadow: 1px 1px rgba(162, 145, 110, 0.868) 
+  }
